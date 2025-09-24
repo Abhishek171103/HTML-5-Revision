@@ -1,0 +1,693 @@
+<!DOCTYPE html>   <!-- This is defined HTML 5 version -->
+<html lang="en">    <!-- This is defined root element -->
+
+
+<!-- 
+
+===> Tag => It is a markep entity. Iske through hum apne content ko structured define kar sakte hai,
+Meaning provide kar sakte hai, formatting kar sakte hai. Example :- h1, h2, p, body, head etc.
+_________________________________________________________________
+|Semantic tag     |    Structure tag     |       formatting tag  |
+|_________________|______________________|_______________________|
+|    h1-h6        |    <html>            |      <b>              |
+|    <p>          |    <head> <body>     |      <i>              |
+|    <a>          |    <header>          |      <u>              |
+|    <ul> <ol>    |    <main>            |      <s>              |
+|    <table>      |    <footer>          |      <strong>         |
+|    <tr> <td>    |    <aside>           |      <em>             |
+|    <img>        |    <article>         |      <sup> <sub>      |
+|    <form>       |    <section>         |      <pre>            |
+|    <input> etc. |    <nav> etc.        |      <code> etc.      |
+|_________________|______________________|_______________________|
+
+
+
+===> Attribute => Jo bhi tag me koi specific kaam kar
+
+Element => Opening tab se lekar closing tab tk. 
+
+-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduce HTML</title>
+</head>
+
+
+<body>
+    <!-- H1 to H6 Tag -->
+    <div>
+    <h1 spellcheck="true" style="background-color: aqua;">Abhishek Jain</h1>
+    <h2 style="color: red;">Abhishek Jain</h2>
+    <h3>Abhishek Jain</h3>
+    <h4>Abhishek Jain</h4>
+    <h5>Abhishek Jain</h5>
+    <h6>Abhishek Jain</h6>
+    </div>
+<hr>
+    <!-- i, b, u, em, br, s, strong, mark, pre, sup, sub, big, small, ins tag -->
+    <div>
+    <p align="right">(1) ==> <i>Lorem ipsum</i>, dolor sit amet <b><u>consectetur adipisicing elit</u></b>. Explicabo voluptates blanditiis nihil quibusdam incidunt sunt ducimus! Mollitia, ut voluptatem! Numquam, inventore. Reprehenderit sequi officia nesciunt repellendus veniam numquam pariatur cupiditate?</p>
+
+    <p align="left">(2) ==> <em>Lorem ipsum</em>, dolor sit amet consectetur adipisicing elit.<br> Explicabo voluptates blanditiis nihil quibusdam incidunt sunt ducimus! Mollitia, ut voluptatem! Numquam, inventore. Reprehenderit sequi officia nesciunt repellendus veniam numquam pariatur cupiditate?</p>
+
+    <p align="center">(3) ==> <s><Strong>Lorem ipsum</Strong></s>, dolor sit amet consectetur adipisicing elit. Explicabo voluptates blanditiis nihil quibusdam incidunt sunt ducimus! Mollitia, ut voluptatem! Numquam, inventore. Reprehenderit sequi officia nesciunt repellendus veniam numquam pariatur cupiditate?</p>
+
+    <p align="justify">(4) ==> <mark>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</mark> Explicabo voluptates blanditiis nihil quibusdam incidunt sunt ducimus! Mollitia, ut voluptatem! Numquam, inventore. Reprehenderit sequi officia nesciunt repellendus veniam numquam pariatur cupiditate?</p>
+
+    <pre>(5) ==> Log<sup>2</sup>n and H<sub>2</sub>O 
+        <br><ins>ipsum</ins>, dolor sit amet consectetur adipisicing <big>elit</big>. Explicabo voluptates <small> nihil </small>quibusdam incidunt sunt ducimus! Mollitia, ut voluptatem! Numquam, inventore. Reprehenderit sequi officia nesciunt repellendus veniam numquam pariatur cupiditate?</pre>
+    </div>
+    <hr>
+
+    <!-- ul, ol, li tag-->
+    <div>
+    <ul type="square">
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Banana</li>
+    </ul>
+
+    <ol type="A">
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Banana</li>
+    </ol>
+    </div>
+
+    <hr>
+
+    <!-- table, tr, th, td, thead, tbody, tfoot tag-->
+    <div>
+    <table border="n" style="width: 50%; text-align:center; border-collapse:collapse">
+        <tr style="background-color: dodgerblue;">
+            <th>Fruit</th>
+            <th>Color</th>
+            <th>Taste</th>
+        </tr>
+
+        <tr>
+            <td>Apple</td>
+            <td>Red</td>
+            <td>Good</td>
+        </tr>
+
+        <tr>
+            <td>Banana</td>
+            <td>Yellow</td>
+            <td>Good</td>
+        </tr>
+
+        <tr>
+            <td>Grapes</td>
+            <td>Green</td>
+            <td>Awesome</td>
+        </tr>
+
+        <tr>
+            <td>Mango</td>
+            <td>Yellow</td>
+            <td>Great</td>
+        </tr>
+    </table>
+    <br> 
+    <table border="10" style="width: 50%; text-align:center; border-collapse:collapse">
+        <thead>
+            <th>Student Id </th>
+            <th>Student Name</th>
+            <th>Gender</th>
+            <th>Age</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>01</td>
+                <td>Abhishek Jain</td>
+                <td>Male</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>Pawan kumar Jain</td>
+                <td>Male</td>
+                <td>46</td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>Anita Devi</td>
+                <td>Female</td>
+                <td>43</td>
+            </tr>
+            <tr>
+                <td>04</td>
+                <td>Pooja Jain</td>
+                <td>Female</td>
+                <td>25</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <table border="10" style="width:50%;">
+        <tr>
+            <td>Column 1</td>
+            <td>Column 2</td>
+            <td>Column 3</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Row 1 Cell 1</td>
+            <td>Row 1 Cell 2</td>
+            <td>Row 1 Cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 2 Cell 2</td>
+            <td>Row 3 Cell 3</td>
+        </tr>
+        <tr>
+            <td colspan="3">Row 3 Cell 1</td>
+        </tr>
+    </table>
+
+    <br>
+    <table border="10" style="width: 75%;">
+        <thead style="text-align: center;">
+            <td>No.</td>
+            <td>Full Name</td>
+            <td>Position</td>
+            <td>Salary</td>
+            <td>Type</td>
+        </thead>
+
+        <tbody style="text-align: center;">
+            <tr>
+                <td>1</td>
+                <td>Bill Gates</td>
+                <td>Founder Microsoft</td>
+                <td>$1000</td>
+                <td rowspan="4">Company Founder</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Steve Jobs</td>
+                <td>Founder Apple</td>
+                <td>$1200</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Larry Page</td>
+                <td>Founder Google</td>
+                <td>$1100</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Mark Zuckerbarg</td>
+                <td>Founder Facebook</td>
+                <td>$1300</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr style="text-align: center;">
+                <td colspan="3">Total Expence:</td>
+                <td>$4600</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <br>
+    <table border="10" style="width: 100%;">
+        <thead style="text-align: center;">
+            <td>State</td>
+            <td>District</td>
+            <td>City</td>
+            <td>Street</td>
+            <td>Male</td>
+            <td>Female</td>
+            <td>Others</td>
+        </thead>
+
+        <tbody style="text-align: center;">
+            <tr>
+                <td rowspan="8">Rajasthan</td>
+                <td rowspan="4">Ajmer</td>
+                <td rowspan="2">Kekri</td>
+                <td>New Street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>Main Street</td>
+                <td>300</td>
+                <td>288</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Kishanganj</td>
+                <td>Guru Street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>TVK Street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td rowspan="4">Jaipur</td>
+                <td rowspan="2">Sanganer</td>
+                <td>Krishna Street</td>
+                <td>700</td>
+                <td>850</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Main Street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Durgapura</td>
+                <td>New Street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Billa Street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Gujrat</td>
+                <td rowspan="2">Ahamdabad</td>
+                <td rowspan="2">Jamnagar</td>
+                <td>New Street</td>
+                <td>200</td>
+                <td>210</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Cross Street</td>
+                <td>1000</td>
+                <td>1000</td>
+                <td>1050</td>
+            </tr>
+        </tbody>
+
+        <tfoot style="text-align: center;">
+            <tr>
+                <td colspan="4">Total:</td>
+                <td>10000</td>
+                <td>11000</td>
+                <td>1000</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <hr>
+
+    <table border="10" style="width: 100%; text-align:center">
+        <thead style="text-align: center;">
+            <tr>
+                <td rowspan="3">Day</td>
+                <td colspan="3">Seminar</td>
+            </tr>
+            <tr>
+                <td colspan="2">Schedule</td>
+                <td rowspan="2">Topic</td>
+            </tr>
+            <tr>
+                <td>Begin</td>
+                <td>End</td>
+            </tr>
+        </thead>
+
+        <tbody style="text-align: center;">
+            <tr>
+                <td rowspan="2">Monday</td>
+                <td rowspan="2">8:00 AM</td>
+                <td rowspan="2">5:00 PM</td>
+                <td>Introduction to XML</td>
+            </tr>
+            <tr>
+                <td>Validity: DTD and Relax NG</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Tuesday</td>
+                <td>8:00 AM</td>
+                <td>11:00 AM</td>
+                <td rowspan="2">XPath</td>
+            </tr>
+            <tr>
+                <td>11:00 AM</td>
+                <td>2:00 PM</td>
+            </tr>
+            <tr>
+                <td>2:00 PM</td>
+                <td>5:00 PM</td>
+                <td>XSL Transformations</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>8:00 AM</td>
+                <td>12:00 PM</td>
+                <td>XSL Formatting Objects</td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+<hr>
+
+    <!-- Img, a, picture, audio, video tag-->
+    <div>
+    <img src="Mee.jpg" alt="Abhishek' picture" height="200px" width="200px">
+    <a href="https://www.google.com" target="_blank"> Click here</a>
+    <picture>
+        <source media="(min-width: 1200px)" srcset="VIYUDA.jpg">
+        <source media="(min-width: 1000px)" srcset="Passpost size photo.png">
+        <img src="Meee.jpg" alt="Image" width="200px" height="200px">
+    </picture>
+    <a href="https://www.youtube.com">
+        <img src="VIYUDA.jpg" alt="Image" width="200px" height="200px"></a>
+
+    <video src="jkchiw" controls poster="Screenshot (534).png" height="200px" width="200px" autoplay></video>    
+    
+    <audio src="uuwhwiq" controls autoplay loop></audio>
+    </div>
+    <hr>
+
+    <!-- Id, class attribute, Emmet -->
+    <div>
+    <p id="Name">Abhishek jain ki Id</p>     <!--( P#Name )-->
+    <p class="Mark">Abhishek jain ki Class</p>                        <!--( p.Mark )-->
+
+    <!-- 
+    
+    p+p+p
+    <p></p>
+    <p></p>
+    <p></p> 
+    
+    p>p>p
+    <p>
+        <p>
+            <p></p>
+        </p>
+    </p>
+    
+    p>a
+    <p><a href=""></a></p>
+
+    p+acticle+section
+    <p></p>
+    <acticle></acticle>
+    <section></section>
+
+    table>tr>th*3
+    <table>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+    </table>
+
+    table>(tr>td*3)*3
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    p{This is my paragraph}
+    <p>This is my paragraph</p>
+    -->
+
+<hr>
+
+    <!-- Div, Span, nav tag
+    
+    <div class="container">
+        <table>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <acticle></acticle>
+    <section></section>
+
+    <p>
+        <p>
+            <p></p>
+        </p>
+    </p>
+    
+    </div> -->
+
+    <div style="background-color: aqua;">This is my First Div</div> <!-- Block level element-->
+    <div style="background-color: Red;">This is my Second Div</div>
+
+    <span style="background-color: Purple;">This is my First Span</span> <!-- Inline Element-->
+    <span style="background-color: Yellow;">This is my Second Span</span>
+
+    <p style="background-color: orange; display:inline">This is my First paragraph</p>  <!-- Block level element and convert Block to Inline element -->
+    <p style="background-color: Green;">This is my Second paragraph</p>
+
+    <nav>
+        <ul type="square">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact us</a></li>
+            <li><a href="">Login</a></li>
+        </ul>
+    </nav>
+
+    <p>
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Contact us</a>
+        <a href="mailto:abhishekjain171103@gmail.com">Email</a>
+        <a href="tel:7737002554">Contact no</a>
+    </p>
+    </div>
+
+<hr>
+    <!-- form using tag -->
+    <form>
+        <fieldset>
+            <legend style="text-align: center;">Login Form</legend>
+        <label for="email" style="width: 50%;">Enter Email id: </label>
+        <input type="text" id="email" placeholder="Enter your email here:" style="display: inline-block;" autofocus>
+        <br>
+        <label for="password" style="width: 50%;">Enter your Password: </label>
+        <input type="text" id="password" placeholder="Enter your password here:" style="display: inline-block;" required>
+        <br>
+        <input type="submit" value="submit">
+        <button>Click here</button>
+        </fieldset>
+    </form>
+
+    <br>
+
+    <form>
+        <fieldset>
+            <legend style="text-align: center;">Event Registration</legend>
+
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+            <br>
+            <br>
+            <label f
+            or="email">Email id</label>
+            <input type="email" name="email1" id="email">
+            <br>
+            <br>
+            <label for="phone">Phone no.</label>
+            <input type="tel" name="number1" id="phone" maxlength="10">
+            <br>
+            <br>
+            <label for="Occ_type">Occupation</label>
+            <select name="Occupation type" id="Occ_type">
+                <option value="student">Student</option>
+                <option value="Professional">Professional</option>
+                <option value="other">Others</option>
+            </select>
+
+            <label for="Course">Computer Course</label>
+            <select name="Coureses" id="Course">
+                <option value="--Computer Course--">--Computer Course--</option>
+                <optgroup label="3 Month course"></optgroup>
+                <option value="BCC">BCC</option>
+                <option value="CCF">CCF</option>
+
+                <optgroup label="6 Month course"></optgroup>
+                <option value="DCA">DCA</option>
+                <option value="DFA">DFA</option>
+
+                <optgroup label="12 Month course"></optgroup>
+                <option value="ADCA">ADCA</option>
+                <option value="ASFA">ASFA</option>
+
+            </select>
+            <br>
+            <br>
+            <fieldset>
+                <legend>Topics of Interest</legend>
+                <label for="checkbox1">HTML</label>
+                <input type="checkbox" name="cheb" id="checkbox1">
+
+                <label for="checkbox2">CSS</label>
+                <input type="checkbox" name="cheb" id="checkbox2">
+
+                <label for="checkbox3">JAVASCRIPT</label>
+                <input type="checkbox" name="cheb" id="checkbox3">
+            </fieldset>
+            <br>
+            <label for="text_area">Comments:</label>
+            <textarea name="textarea1" id="text_area" cols="10" rows="5"></textarea>
+            <label for="button"></label>
+            <input type="button" id="button" value="Register">
+        </fieldset>
+    </form>
+    <br>
+    <hr >
+
+    <form>
+        <h2>Job Application</h2>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name"><br><br>
+
+        <label for="email_id">Email Id:</label>
+        <input type="email" name="emailID" id="email_id"><br><br>
+
+        <label for="Phone_no">Phone no:</label>
+        <input type="tel" name="Phone no." id="Phone_no"><br><br>
+
+        <label for="Choose file">Choose File:</label>
+        <input type="file" name="File" id="Choose file"><br><br>
+
+        <label for="Number">Experience (in years):</label>
+        <input type="number" name="number" id="Number" min="0" max="20" placeholder="0"><br><br>
+
+        <fieldset>
+            <legend>Skills</legend>
+            <label for="checkbox1">HTML</label>
+            <input type="checkbox" name="checkbox" id="checkbox1">
+
+            <label for="checkbox2">CSS</label>
+            <input type="checkbox" name="checkbox" id="checkbox2">
+
+            <label for="checkbox1">JavaScript</label>
+            <input type="checkbox" name="checkbox" id="checkbox13">
+            
+        </fieldset><br><br>
+
+        <label for="Highest_edu">Highest Education</label>
+        <select name="Highest Education" id="Highest_edu">
+            <option value="High School">High School</option>
+            <option value="Assosiate Degree">Assosiate Degree</option>
+            <option value="Bachelor's Degree">Bachelor's Degree</option>
+            <option value="Master's Degree">Master's Degree</option>
+            <option value="Phd">Phd</option>
+        </select><br><br>
+
+        <label for="Radio">Availability:</label>
+        <input type="radio" name="radio" id="Radio">Full Time
+        <input type="radio" name="radio" id="Radio">Part Time <br><br>
+
+        <label for="Comments">Additional Comments;</label>
+        <textarea name="textarea" id="Comments" cols="20" rows="5" placeholder="Enter your Comments"></textarea>
+
+        <input type="button" value="Submit"><br>
+    </form>
+    <hr>
+
+    <form >
+            <h2>Complex Form</h2>
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name">
+
+                <label for="email_id">Email Id:</label>
+                <input type="email" name="emailID" id="email_id">
+
+                <label for="Phone_no">Phone no:</label>
+                <input type="tel" name="Phone no." id="Phone_no">
+
+                <label for="DOB">Date of birth:</label>
+                <input type="date" name="date" id="DOB">
+
+                <label for="Gender">Gender</label>
+                <input type="radio" name="Gender" id="Gender">Male
+                <input type="radio" name="Gender" id="Gender">Female <br><br>
+
+                <label for="Country">Country</label>
+                <select name="Country" id="Country">
+                    <option value="India">India</option>
+                    <option value="United state">United state</option>
+                    <option value="Russia">Russia</option>
+                </select>
+            </fieldset><br>
+
+            <fieldset>
+                <legend>
+                    <label for="textarea">Address Street</label>
+                    <input type="text" name="textarea" id="textarea">
+
+                    <label for="City">City</label>
+                    <input type="text" name="text" id="City">
+
+                    <label for="State">State</label>
+                    <input type="text" name="text" id="State">
+
+                    <label for="number">Zip code</label>
+                    <input type="number" name="number" id="number" max="6">
+                </legend>
+            </fieldset>
+
+            <fieldset>
+                <legend>Other Information</legend>
+
+                <label for="text">Comment:</label>
+                <textarea name="text" id="text" cols="20" rows="5" placeholder="Enter your Comments."></textarea>
+                I agree to the terms of services
+                <input type="checkbox" name="checkbox" id="checkbox">
+            </fieldset><br>
+
+            <input type="button" value="Submit">
+    </form>
+
+</body>
+</html>
